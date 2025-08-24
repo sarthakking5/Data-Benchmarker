@@ -29,6 +29,34 @@ This project provides a **Streamlit web app** for quick data inspection and vali
 └── .gitignore
 ```
 
+## Standardized Data Schema
+
+A standardized schema to each the uploaded file is converted for benchmarking.
+```json
+{
+  "case_id": "string",
+  "metadata": {
+    "source": "string",
+    "objective": "Minimize Makespan",
+    "created_by": "Campus Heilbronn"
+  },
+  "jobs": [
+    {
+      "job_id": "J1",
+      "operations": [
+        {
+          "operation_id": "O1",
+          "machines": [
+            { "id": "M1", "time": 10.0 },
+            { "id": "M2", "time": 12.0 }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+```
 ## ⚙️ Installation
 
 ```bash
