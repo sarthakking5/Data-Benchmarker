@@ -1,9 +1,9 @@
 # Data Benchmarking App
 
 ## 📖 Description
-
 A template repository for researchers and practitioners to **standardize, validate, and benchmark case study datasets** for optimization problems.  
 This project provides a **Streamlit web app** for quick data inspection and validation, and utility functions for loading raw datasets into a **standardized schema**.
+
 ---
 
 ## 🚀 Features
